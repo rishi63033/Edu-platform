@@ -13,7 +13,7 @@ export default function SkeletonCard({
   return (
     <div
       className={`rounded-2xl border border-[#1e2a3a] bg-[#0f1420] p-5 animate-pulse ${
-        wide ? "col-span-2" : ""
+        wide ? "col-span-1 md:col-span-2" : ""
       }`}
     >
       {/* Icon placeholder */}

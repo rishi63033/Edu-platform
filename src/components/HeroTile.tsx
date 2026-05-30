@@ -24,7 +24,7 @@ export default function HeroTile() {
         borderColor: "rgba(99, 102, 241, 0.3)",
       }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      className="relative col-span-2 rounded-2xl overflow-hidden border border-[#1e2a3a] bg-[#0f1420] grain p-6 md:p-8 flex flex-col justify-between min-h-[180px]"
+      className="relative col-span-1 md:col-span-2 rounded-2xl overflow-hidden border border-[#1e2a3a] bg-[#0f1420] grain p-6 md:p-8 flex flex-col justify-between min-h-[180px]"
     >
       {/* Gradient mesh background — purely decorative, behind content */}
       <div
